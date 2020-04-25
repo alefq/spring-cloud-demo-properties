@@ -1,15 +1,15 @@
 spring:
     database:
-        driverClassName: '"org.postgresql.Driver"'
+        driverClassName: "org.postgresql.Driver"
     datasource:
-        password: '"p0stgr@s"'
-        platform: '"postgres"'
-        testWhileIdle: '"true"'
-        url: '"jdbc:postgresql://database:5432/spring-cloud-demo-db"'
-        username: '"postgres"'
-        validationQuery: '"SELECT 1"'
+        password: "p0stgr@s"
+        platform: "postgres"
+        testWhileIdle: "true"
+        url: "jdbc:postgresql://database:5432/spring-cloud-demo-db"
+        username: "postgres"
+        validationQuery: "SELECT 1"
     jpa:
-        database: '"POSTGRESQL"'
+        database: "POSTGRESQL"
         properties:
             hibernate:
                 dialect: '"org.hibernate.dialect.PostgreSQLDialect"'
