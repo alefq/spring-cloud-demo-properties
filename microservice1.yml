@@ -1,19 +1,6 @@
 spring:
-    database:
-        driverClassName: "org.postgresql.Driver"
-    datasource:
-        password: "p0stgr@s"
-        platform: "postgres"
-        testWhileIdle: "true"
-        url: "jdbc:postgresql://database:5432/spring-cloud-demo-db"
-        username: "postgres"
-        validationQuery: "SELECT 1"
-    jpa:
-        database: "POSTGRESQL"
-        properties:
-            hibernate:
-                dialect: "org.hibernate.dialect.PostgreSQLDialect"
-        show-sql: "true"
+  zipkin:
+    baseUrl: http://localhost:9411
 eureka:
   instance:
     prefer-ip-address: true
