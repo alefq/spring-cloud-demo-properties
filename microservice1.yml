@@ -14,6 +14,6 @@ security:
     client:
       client-id: appclient@123
     resource:
-      id: microservice2
+      id: microservice1
       jwt:
         key-value: JWTKey@123
